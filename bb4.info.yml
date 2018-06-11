@@ -1,0 +1,25 @@
+name: BB4
+type: theme
+description: 'A base bootstrap4 theme'
+core: 8.x
+libraries:
+  - bb4/bootstrap4
+  - bb4/custom
+ 
+base theme: false
+
+regions:
+  header: 'Header'
+  top_nav: 'Top Navigation'
+  custom: 'Custom'
+  highlight: 'Highlight'
+  content_top: 'Content Top'
+  content: 'Content'
+  content_bottom: 'Content Bottomr'
+  sidebar_right: 'Right Sidebar'
+  bottom_left: 'Bottom Left'
+  bottom_middle: 'Bottom Middle'
+  bottom_right: 'Bottom Right'
+  footer: 'Footer'
+  
+version: '8.x-arpha-1.0'

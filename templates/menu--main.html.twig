@@ -1,0 +1,8 @@
+{# empty Twig template #}
+{% extends "menu.html.twig" %}
+{%
+  set classes = [
+    'menu--' ~ menu_name|clean_class,
+    'navbar-nav',
+  ]
+%}
